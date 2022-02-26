@@ -1,0 +1,59 @@
+.container {
+  height: 300px;
+  width: 600px;
+  margin: 0px auto;
+  display: flex;
+  margin-left: 34%;
+  margin-top: 8%;
+}
+
+.card {
+  height: 25rem;
+  width: 27rem;
+  background-color: rgb(215, 236, 245);
+  border-radius: 10px;
+  box-shadow: -1rem 0 3rem rgb(215, 236, 245);
+  position: relative;
+}
+
+.title {
+  color: rgb(118, 205, 240);
+  font-weight: 700;
+  padding: 20px 20px;
+  margin: 0px auto;
+  display: block;
+  text-align: center;
+}
+.signup__inputContainer {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.signup__inputContainer > input {
+  display: block;
+  margin: 20px 0px;
+  padding: 10px 20px;
+  width: 60%;
+  border: 1px solid skyblue;
+  border-radius: 5px;
+  outline: none;
+}
+.signup__button {
+  margin-left: 38%;
+  margin-top: 3%;
+  background-color: skyblue;
+  border: none;
+  padding: 12px 30px;
+  border-radius: 5px;
+  color: white;
+  font-weight: 700;
+  cursor: pointer;
+  position: absolute;
+  bottom: 39px;
+  left: 0%;
+}
+.signup__button:hover {
+  color: skyblue;
+  background-color: white;
+}

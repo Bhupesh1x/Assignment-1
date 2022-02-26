@@ -1,0 +1,21 @@
+.userDetail {
+  margin-top: 5%;
+  margin-left: 43%;
+}
+.userDetail > h2 {
+  border: 2px solid black;
+  width: fit-content;
+  padding: 6px 15px;
+  margin-bottom: 20px;
+}
+.userDetails__dataSpan {
+  padding-right: 10px;
+}
+.userDetails__dataSpan2 {
+  padding-left: 10px;
+}
+.userDetails__image {
+  object-fit: contain;
+  width: 70px;
+  margin-bottom: 20px;
+}

@@ -1,0 +1,10 @@
+.footer {
+  background-color: skyblue;
+  padding: 10px 0px;
+  text-align: center;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  color: white;
+  font-weight: 800;
+}
